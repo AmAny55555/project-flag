@@ -21,7 +21,7 @@ function Footer() {
   };
 
   return (
-    <div className='bg-[#131311] p-20'>
+    <div className='bg-[#131311] p-20 w-full'>
       <h1 className='text-white font-bold uppercase text-xl mb-10 text-center'>Get in touch</h1>
 
       <div className='flex flex-col sm:flex-row sm:space-x-10 w-full items-center'>

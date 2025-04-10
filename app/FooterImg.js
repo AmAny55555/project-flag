@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 function FooterImg() {
   return (
-    <div className='relative w-full text-neutral-100 '>
+    <div className='relative  text-neutral-100 w-full '>
      <div>
     <img src="/sea.jpeg" alt="sea" className="w-full h-100 filter grayscale brightness-75" />
     
