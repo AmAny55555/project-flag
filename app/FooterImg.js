@@ -14,7 +14,7 @@ function FooterImg() {
   <span className="block">flag</span>
   <span className="font-bold text-amber-300 capitalize italic text-sm block">performance</span>
 </h1>
-<h1 className=' w-2xl mb-4 text-sm pt-2 font-bold'>flag performance is your primer desetination for high performance automative  services and accesrroies we specialize is evaluting your vehicle performance andd style</h1>
+<h1 className=' sm:break-words  mb-4 text-sm pt-2 font-bold lg:w-2xl '>flag performance is your primer desetination for high performance automative  services and accesrroies we specialize is evaluting your vehicle performance andd style</h1>
 
 <div className='icone flex gap-5  text-neutral-100'>
 <i className="fa-brands fa-facebook"></i>

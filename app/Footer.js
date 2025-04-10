@@ -8,15 +8,13 @@ function Footer() {
   const [phoneNumber, setPhoneNumber] = useState("");
   const [message, setMessage] = useState("");
 
-  // دالة لمعالجة إرسال النموذج
+
   const handleSubmit = (e) => {
     e.preventDefault();
-    // عرض البيانات في الـ console
+ 
     console.log({ fullName, phoneNumber, message });
 
-    // هنا يمكن إرسال البيانات إلى API أو تخزينها
 
-    // إعادة تعيين الحقول بعد الإرسال
     setFullName("");
     setPhoneNumber("");
     setMessage("");
